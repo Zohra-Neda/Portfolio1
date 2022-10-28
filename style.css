@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  position: relative;
+  width: 320px;
+  height: 4910px;
+  background-color: #fff;
+}
+
+#menu {
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: 1px;
+  top: 1px;
+}
+
+#ic_menu {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 340px;
+  top: 19px;
+}
+
+#section1 {
+  color: blue;
+  width: 50%;
+  height: 500px;
+}
+
+#title {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+#p1 {
+  position: absolute;
+  width: 288px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+#section3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 41px;
+  top: 390px;
+  background: #1a2236;
+}
+
+#title2 {
+  position: absolute;
+  width: 203.68px;
+  height: 26.47px;
+  left: 44px;
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+}
+
+#geometry {
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 0;
+  top: 472px;
+}
