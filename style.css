@@ -1,5 +1,9 @@
 .container {
   display: flex;
+  position: relative;
+  width: 320px;
+  height: 4910px;
+  background: #FFFFFF;
 }
 
 ul {
@@ -8,8 +12,21 @@ ul {
   padding: 0;
 }
 
-img {
-  width: 74px;
+#menu {
+  position: absolute;
+  width: 111px;
+  height: 74px;
+  left: 0px;
+  top: 0px;
+}
+
+#ic_menu {
+  position: absolute;
+  width: 20px;
+  height: 14px;
+  left: 340px;
+  top: 19px;
+/* background: #1A2236; */
 }
 
 #section1 {
@@ -32,7 +49,7 @@ img {
   color: #1a2236;
 }
 
-#section2 {
+#p1 {
   position: absolute;
   width: 288px;
   height: 126px;
@@ -41,7 +58,7 @@ img {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
@@ -52,7 +69,7 @@ img {
   position: absolute;
   width: 288px;
   height: 50px;
-  left: 16px;
+  left: 41px;
   top: 390px;
   background: #1a2236;
 }
@@ -70,4 +87,12 @@ img {
   line-height: 24px;
   text-align: center;
   color: #fff;
+}
+
+#geometry {
+  position: absolute;
+  width: 375px;
+  height: 160px;
+  left: 0px;
+  top: 472px;
 }
