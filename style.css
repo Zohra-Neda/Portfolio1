@@ -3,21 +3,15 @@
   position: relative;
   width: 320px;
   height: 4910px;
-  background: #FFFFFF;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  background-color: #fff;
 }
 
 #menu {
   position: absolute;
   width: 111px;
   height: 74px;
-  left: 0px;
-  top: 0px;
+  left: 1px;
+  top: 1px;
 }
 
 #ic_menu {
@@ -26,7 +20,6 @@ ul {
   height: 14px;
   left: 340px;
   top: 19px;
-/* background: #1A2236; */
 }
 
 #section1 {
@@ -43,7 +36,7 @@ ul {
   top: 104px;
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 50px;
   line-height: 100%;
   color: #1a2236;
@@ -86,13 +79,13 @@ ul {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #fff;
+  color: white;
 }
 
 #geometry {
   position: absolute;
   width: 375px;
   height: 160px;
-  left: 0px;
+  left: 0;
   top: 472px;
 }
